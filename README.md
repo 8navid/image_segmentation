@@ -12,11 +12,16 @@ This repository contains a complete pipeline for training and evaluating medical
 
 ## 📁 Dataset Structure
 
-Download the Kvasir‑SEG dataset from [Simula Dataset Portal](https://datasets.simula.no/kvasir-seg/) and place it as follows:
-
+Download the Kvasir‑SEG dataset from [Simula Dataset Portal](https://datasets.simula.no/kvasir-seg/).
 
 
 ### Install dependencies
 
 ```bash
 pip install torch torchvision pillow tqdm numpy
+```
+
+### Run the code 
+```bash
+python mambaseg.py
+```
