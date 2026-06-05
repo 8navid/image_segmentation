@@ -1,0 +1,26 @@
+python mamba.py
+
+
+Using device: cpu
+Train: 880 images, Val: 60, Test: 60
+
+=== Training Lightweight eMMamba (core concepts) ===
+
+Epoch 1/10 | Loss: 1.0038 | Val Dice: 0.4615 | Val IoU: 0.3168
+Epoch 2/10 | Loss: 1.0355 | Val Dice: 0.3594 | Val IoU: 0.2361
+Epoch 3/10 | Loss: 1.0550 | Val Dice: 0.4002 | Val IoU: 0.2623
+Epoch 4/10 | Loss: 1.0338 | Val Dice: 0.2238 | Val IoU: 0.1413
+Epoch 5/10 | Loss: 0.9742 | Val Dice: 0.4344 | Val IoU: 0.2871
+Epoch 6/10 | Loss: 0.9322 | Val Dice: 0.4880 | Val IoU: 0.3360
+Epoch 7/10 | Loss: 0.9039 | Val Dice: 0.5139 | Val IoU: 0.3607
+Epoch 8/10 | Loss: 0.8760 | Val Dice: 0.5298 | Val IoU: 0.3806
+Epoch 9/10 | Loss: 0.8360 | Val Dice: 0.5734 | Val IoU: 0.4201
+Epoch 10/10 | Loss: 0.8165 | Val Dice: 0.5767 | Val IoU: 0.4213
+
+==================================================
+Final Results on Test Set
+==================================================
+Test Dice:  0.4284
+Test IoU:   0.3132
+Inference time per image (CPU): 0.075 sec
+==================================================
