@@ -1,4 +1,6 @@
 # Medical Image Segmentation Benchmark on Kvasir‑SEG
+a modified, CPU-friendly variant of the : "An Efficient Medical Segmentation Model With Edge Enhancement"
+[doi](https://doi.org/10.1109/JBHI.2025.3572088)
 
 This repository contains a complete pipeline for training and evaluating medical image segmentation models on the **Kvasir‑SEG** dataset (polyp segmentation). The work includes:
 
